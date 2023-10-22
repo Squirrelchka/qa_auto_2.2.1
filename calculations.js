@@ -1,22 +1,22 @@
 function increaseBalance(x, y) {
-  x = x + y;
+  x += y;
   return x;
 }
 
 
 function decreaseBalance(x, y) {
-x = x - y;
+x -= y;
 return x;
 }
 
 
 function divideBalanceByAccounts(x, y) {
-  x = x/y ;
+  x /= y ;
   return x;
   }
 
 function getRestAfterDivision(x, y) {
-  x = x % y;
+  x %= y;
   return x;
 }
 
